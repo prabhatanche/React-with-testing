@@ -1,0 +1,18 @@
+body{
+  background-color: $nav-background;
+}
+.top-bar{
+  background-color: rgba(255,255,255,0.04);
+}
+.top-bar{
+  .menu-text{
+    color: $nav-text-color;
+  }
+  .menu>.menu-text>a{
+    display: inline;
+    padding: 0;
+  }
+  ul{
+    background-color: rgba(255,255,255,0.006);
+  }
+}
