@@ -1,5 +1,8 @@
 var React = require ('react');
-
+var ReactDOM = require('react-dom');
+var expect = require('expect');
+var $ = require('jQuery');
+var TestUtils = require('react-addons-test-utils');
 var Clock = React.createClass({
     getDefaultProps: function () {
         totalSeconds: 0
